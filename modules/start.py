@@ -13,12 +13,8 @@ async def start(_: Client, m: t.Message):
         startText,
         reply_markup=t.InlineKeyboardMarkup(
             [
-                [
-        InlineKeyboardButton(
-            text="🎈α∂∂ мє ιη уσυ ¢нαт🎈",
-            url=f"https://t.me/{dispatcher.bot.username}?startgroup=true",
-        ),
-    ],
+                t.InlineKeyboardButton(text="Source",url="https://github.com/Qewertyy/AntiNSFWRobot")
+            ]
             ]
         )
     )
